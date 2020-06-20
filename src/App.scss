@@ -1,0 +1,54 @@
+.default-bottom{
+  margin-bottom: 30px !important;
+}
+.white-text{
+  color:#FFF;
+}
+.width-50{
+  width: 50%;
+}
+.full-width{
+  width:100%
+}
+.link{
+  color: #0366d6;
+}
+.follow-btn{
+  border: 1px solid #ccc;
+}
+.project-list{
+  border-bottom: 1px solid #CCC;
+}
+.btn{
+  border: 1px solid #ccc;
+}
+.grid-sys {
+  display: -webkit-flex; 
+  display: flex;
+  .child {
+    -webkit-flex: 1; 
+    -ms-flex: 1; 
+    flex: 1;
+  }
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+.grow-1 {
+  flex-grow: 1 !important;
+}
+.grow-3 {
+  flex-grow: 3 !important;
+}
+.perfect-center {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
